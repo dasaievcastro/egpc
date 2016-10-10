@@ -69,6 +69,7 @@ var app = {
         $("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
         $('#contactForm').submit(function(e){
             var dados = $('#contactForm').serialize();
+            $('#enviarForm').prop('disabled', true);
             $.post("http://egpc.com.br/appegpc/pesquisasatisfacao.php",dados,function(dados){
                 if(dados=='Enviado com sucesso'){
                     $('#contactForm').hide();
