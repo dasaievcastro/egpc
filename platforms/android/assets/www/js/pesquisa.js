@@ -70,9 +70,7 @@ var app = {
         $('#contactForm').submit(function(e){
             var dados = $('#contactForm').serialize();
             $.post("http://egpc.com.br/appegpc/pesquisasatisfacao.php",dados,function(dados){
-                alert(dados)
                 if(dados=='Enviado com sucesso'){
-                    alert(dados)
                     $('#contactForm').hide();
                     $('#formSuccessMessageWrap').show();
                 }else{

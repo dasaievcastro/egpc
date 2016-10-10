@@ -2326,8 +2326,8 @@ ul.tabs li.active-tab{
 .button-green:hover{	background-color:#2ecc71;}
 
 .blue-3d{				padding-top:5px; padding-bottom:5px; border-bottom:solid 4px #194e70;}
-.button-blue{			background-color:#2b3976; color:#FFFFFF;}
-.button-blue:hover{		background-color:#2b3976;}
+.button-blue{			background-color:#00a8cb; color:#FFFFFF;}
+.button-blue:hover{		background-color:#00a8ce;}
 
 .magenta-3d{			padding-top:5px; padding-bottom:5px; border-bottom:solid 4px #602e75;}
 .button-magenta{		background-color:#8e44ad; color:#FFFFFF;}
@@ -8516,7 +8516,7 @@ html, body {
 .formSuccessMessageWrap{
     font-size:11px!important;
     text-align:center;
-    background-color:#0096bd;
+    background-color:#00a8cb;
     color:#FFFFFF;
     margin-bottom:20px;
     border-radius: 10px;

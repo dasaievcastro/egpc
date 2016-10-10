@@ -192,10 +192,10 @@
   top: 0;
   width: 20px;
   height: 20px;
-  background-color: #337ab7;
-  background-image: -webkit-linear-gradient(top, #149bdf 0%, #0480be 100%);
+  background-color: #00a8cb;
+/*  background-image: -webkit-linear-gradient(top, #149bdf 0%, #0480be 100%);
   background-image: -o-linear-gradient(top, #149bdf 0%, #0480be 100%);
-  background-image: linear-gradient(to bottom, #2b3976 0%, #2b3976 100%);
+  background-image: linear-gradient(to bottom, #2b3976 0%, #2b3976 100%);*/
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
   filter: none;
