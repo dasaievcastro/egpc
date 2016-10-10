@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gama.egpc" version="2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.gama.egpc" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="File">
         <param name="android-package" value="org.apache.cordova.file.FileUtils" />
@@ -32,7 +32,7 @@
     <allow-intent href="market:*" />
     <name>VI EGPC - Evento Mercer GAMA de Previdência Complementar</name>
     <description>VI EGPC - Evento Mercer GAMA de Previdência Complementar</description>
-    <author email="" href="http://egpc.com.br">Mercer GAMA</author>
+    <author email="dasaiev.castro@mercer.com" href="http://egpc.com.br">Mercer GAMA</author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait only" />
@@ -70,7 +70,7 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
     <preference name="SplashScreen" value="screen" />
-    <icon src="icon.png" />
+    <icon src="icon.jpg" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/36x36.jpg" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/48x48.jpg" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/72x72.jpg" />
