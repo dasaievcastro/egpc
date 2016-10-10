@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gama.egpc" version="2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.gama.egpc" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
     <name>VI EGPC - Evento Mercer GAMA de Previdência Complementar</name>
     <description>VI EGPC - Evento Mercer GAMA de Previdência Complementar</description>
-    <author email="" href="http://egpc.com.br">Mercer GAMA</author>
+    <author email="dasaiev.castro@mercer.com" href="http://egpc.com.br">Mercer GAMA</author>
     <content src="index.html" />
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.statusbar" />
@@ -26,7 +26,7 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-    <icon src="icon.png" />
+    <icon src="icon.jpg" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/36x36.jpg" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/48x48.jpg" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/72x72.jpg" />
