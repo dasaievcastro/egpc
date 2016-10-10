@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gama.ersa2" version="2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.gama.egpc" version="2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="File">
         <param name="android-package" value="org.apache.cordova.file.FileUtils" />
@@ -35,7 +35,7 @@
     <author email="" href="http://egpc.com.br">Mercer GAMA</author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
-    <preference name="orientation" value="default" />
+    <preference name="orientation" value="portrait only" />
     <preference name="target-device" value="handset" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
@@ -71,10 +71,10 @@
     <gap:plugin name="org.apache.cordova.vibration" />
     <preference name="SplashScreen" value="screen" />
     <icon src="icon.png" />
-    <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/Icone-36.png" />
-    <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/Icone-48.png" />
-    <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/Icone-72.png" />
-    <icon gap:platform="android" gap:qualifier="xhdpi" src="www/res/icon/android/Icone-96.png" />
+    <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/36x36.jpg" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/48x48.jpg" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/72x72.jpg" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="www/res/icon/android/96x96.jpg" />
     <icon gap:platform="blackberry" src="www/res/icon/blackberry/icon-80.png" />
     <icon gap:platform="blackberry" gap:state="hover" src="www/res/icon/blackberry/icon-80.png" />
     <icon gap:platform="ios" height="57" src="www/res/icon/ios/Icone-57.png" width="57" />
