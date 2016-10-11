@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gama.egpc" version="2.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.gama.egpc" version="2.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>VI EGPC </name>
     <description>VI EGPC - Evento Mercer GAMA de Previdência Complementar</description>
     <author email="dasaiev.castro@mercer.com" href="http://egpc.com.br">Mercer GAMA</author>
