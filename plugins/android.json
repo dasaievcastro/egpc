@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.gama.egpc"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.gama.egpc"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.gama.egpc"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.gama.egpc"
+        },
+        "cordova-plugin-sim": {
+            "PACKAGE_NAME": "com.gama.egpc"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.gama.egpc"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.gama.egpc"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.gama.egpc"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.gama.egpc"
+        }
+    }
+}
