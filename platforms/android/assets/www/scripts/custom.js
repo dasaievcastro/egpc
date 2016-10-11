@@ -101,23 +101,23 @@ $(document).ready(function () {
     });    
         
     $(function() {      
-      $("#page-content").swipe( {
-        swipeRight:function(event, direction, distance, duration, fingerCount) {
-            if( $('body').find('.sidebar-left').hasClass('sidebar-left') ){
-                $('.sidebar-left').addClass('active-sidebar-box'); 
-                $('.sidebar-right').removeClass('active-sidebar-box'); 
-                $('.sidebar-tap-close').addClass('active-tap-close');
-            }
-        },        
-        swipeLeft:function(event, direction, distance, duration, fingerCount) {
-            if( $('body').find('.sidebar-right').hasClass('sidebar-right') ){
-                $('.sidebar-right').addClass('active-sidebar-box'); 
-                $('.sidebar-left').removeClass('active-sidebar-box'); 
-                $('.sidebar-tap-close').addClass('active-tap-close');
-            }
-        },
-        threshold:25
-      });
+      // $("#page-content").swipe( {
+      //   swipeRight:function(event, direction, distance, duration, fingerCount) {
+      //       if( $('body').find('.sidebar-left').hasClass('sidebar-left') ){
+      //           $('.sidebar-left').addClass('active-sidebar-box'); 
+      //           $('.sidebar-right').removeClass('active-sidebar-box'); 
+      //           $('.sidebar-tap-close').addClass('active-tap-close');
+      //       }
+      //   },        
+      //   swipeLeft:function(event, direction, distance, duration, fingerCount) {
+      //       if( $('body').find('.sidebar-right').hasClass('sidebar-right') ){
+      //           $('.sidebar-right').addClass('active-sidebar-box'); 
+      //           $('.sidebar-left').removeClass('active-sidebar-box'); 
+      //           $('.sidebar-tap-close').addClass('active-tap-close');
+      //       }
+      //   },
+      //   threshold:25
+      // });
     });    
     
     $(function() {      
