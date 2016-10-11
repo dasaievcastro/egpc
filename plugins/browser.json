@@ -30,6 +30,9 @@
         },
         "cordova-plugin-sim": {
             "PACKAGE_NAME": "com.gama.ersa2"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.gama.egpc"
         }
     },
     "dependent_plugins": {
