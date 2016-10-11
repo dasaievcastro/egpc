@@ -33,6 +33,42 @@
         },
         "cordova-plugin-globalization": {
             "PACKAGE_NAME": "com.gama.egpc"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.gamaca.egpc"
         }
     },
     "dependent_plugins": {
