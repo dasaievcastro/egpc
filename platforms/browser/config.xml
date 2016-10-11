@@ -41,7 +41,7 @@
     <allow-navigation href="*" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait only" />
-    <preference name="target-device" value="handset" />
+    <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
