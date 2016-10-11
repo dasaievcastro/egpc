@@ -3,7 +3,7 @@
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>VI EGPC - Evento Mercer GAMA de Previdência Complementar</name>
+    <name>VI EGPC </name>
     <description>VI EGPC - Evento Mercer GAMA de Previdência Complementar</description>
     <author email="dasaiev.castro@mercer.com" href="http://egpc.com.br">Mercer GAMA</author>
     <content src="index.html" />
