@@ -24,7 +24,7 @@
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/320x480.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/480x800.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/720x1280.jpg" />
-    <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" />
+    <gap:splash src="www/res/screen/android/720x1280.jpg" />
     <gap:splash gap:platform="blackberry" src="www/res/screen/blackberry/screen-225.png" />
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
