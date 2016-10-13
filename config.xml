@@ -46,88 +46,88 @@
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/48x48.jpg" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/72x72.jpg" />
     <icon gap:platform="android" gap:qualifier="xhdpi" src="www/res/icon/android/96x96.jpg" />
-    <icon height="57" gap:platform="ios" src="www/res/icon/ios/icon.png" width="57" />
-    <icon height="114" gap:platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
-    <icon height="40" gap:platform="ios" src="www/res/icon/ios/icon-40.png" width="40" />
-    <icon height="80" gap:platform="ios" src="www/res/icon/ios/icon-40@2x.png" width="80" />
-    <icon height="50" gap:platform="ios" src="www/res/icon/ios/icon-50.png" width="50" />
-    <icon height="100" gap:platform="ios" src="www/res/icon/ios/icon-50@2x.png" width="100" />
-    <icon height="60" gap:platform="ios" src="www/res/icon/ios/icon-60.png" width="60" />
-    <icon height="120" gap:platform="ios" src="www/res/icon/ios/icon-60@2x.png" width="120" />
-    <icon height="180" gap:platform="ios" src="www/res/icon/ios/icon-60@3x.png" width="180" />
-    <icon height="72" gap:platform="ios" src="www/res/icon/ios/icon-72.png" width="72" />
-    <icon height="144" gap:platform="ios" src="www/res/icon/ios/icon-72@2x.png" width="144" />
-    <icon height="76" gap:platform="ios" src="www/res/icon/ios/icon-76.png" width="76" />
-    <icon height="152" gap:platform="ios" src="www/res/icon/ios/icon-76@2x.png" width="152" />
-    <icon height="29" gap:platform="ios" src="www/res/icon/ios/icon-small.png" width="29" />
-    <icon height="58" gap:platform="ios" src="www/res/icon/ios/icon-small@2x.png" width="58" />
-    <icon height="87" gap:platform="ios" src="www/res/icon/ios/icon-small@3x.png" width="87" />
+    <icon height="57" gap:platform="ios" src="res/icon/ios/icon.png" width="57" />
+    <icon height="114" gap:platform="ios" src="res/icon/ios/icon@2x.png" width="114" />
+    <icon height="40" gap:platform="ios" src="res/icon/ios/icon-40.png" width="40" />
+    <icon height="80" gap:platform="ios" src="res/icon/ios/icon-40@2x.png" width="80" />
+    <icon height="50" gap:platform="ios" src="res/icon/ios/icon-50.png" width="50" />
+    <icon height="100" gap:platform="ios" src="res/icon/ios/icon-50@2x.png" width="100" />
+    <icon height="60" gap:platform="ios" src="res/icon/ios/icon-60.png" width="60" />
+    <icon height="120" gap:platform="ios" src="res/icon/ios/icon-60@2x.png" width="120" />
+    <icon height="180" gap:platform="ios" src="res/icon/ios/icon-60@3x.png" width="180" />
+    <icon height="72" gap:platform="ios" src="res/icon/ios/icon-72.png" width="72" />
+    <icon height="144" gap:platform="ios" src="res/icon/ios/icon-72@2x.png" width="144" />
+    <icon height="76" gap:platform="ios" src="res/icon/ios/icon-76.png" width="76" />
+    <icon height="152" gap:platform="ios" src="res/icon/ios/icon-76@2x.png" width="152" />
+    <icon height="29" gap:platform="ios" src="res/icon/ios/icon-small.png" width="29" />
+    <icon height="58" gap:platform="ios" src="res/icon/ios/icon-small@2x.png" width="58" />
+    <icon height="87" gap:platform="ios" src="res/icon/ios/icon-small@3x.png" width="87" />
     <platform name="ios">
-        <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
-        <icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
-        <icon height="40" platform="ios" src="www/res/icon/ios/icon-40.png" width="40" />
-        <icon height="80" platform="ios" src="www/res/icon/ios/icon-40@2x.png" width="80" />
-        <icon height="50" platform="ios" src="www/res/icon/ios/icon-50.png" width="50" />
-        <icon height="100" platform="ios" src="www/res/icon/ios/icon-50@2x.png" width="100" />
-        <icon height="60" platform="ios" src="www/res/icon/ios/icon-60.png" width="60" />
-        <icon height="120" platform="ios" src="www/res/icon/ios/icon-60@2x.png" width="120" />
-        <icon height="180" platform="ios" src="www/res/icon/ios/icon-60@3x.png" width="180" />
-        <icon height="72" platform="ios" src="www/res/icon/ios/icon-72.png" width="72" />
-        <icon height="144" platform="ios" src="www/res/icon/ios/icon-72@2x.png" width="144" />
-        <icon height="76" platform="ios" src="www/res/icon/ios/icon-76.png" width="76" />
-        <icon height="152" platform="ios" src="www/res/icon/ios/icon-76@2x.png" width="152" />
-        <icon height="29" platform="ios" src="www/res/icon/ios/icon-small.png" width="29" />
-        <icon height="58" platform="ios" src="www/res/icon/ios/icon-small@2x.png" width="58" />
-        <icon height="87" platform="ios" src="www/res/icon/ios/icon-small@3x.png" width="87" />
-        <splash height="1136" platform="ios" src="www/res/screen/ios/640x1136.png" width="640" />
-        <splash height="1334" platform="ios" src="www/res/screen/ios/750x1334.png" width="750" />
-        <splash height="2208" platform="ios" src="www/res/screen/ios/1242x2208.png" width="1242" />
-        <splash height="1242" platform="ios" src="www/res/screen/ios/2208x1242.png" width="2208" />
-        <splash height="1536" platform="ios" src="www/res/screen/ios/2048x1536.png" width="2048" />
-        <splash height="768" platform="ios" src="www/res/screen/ios/1024x768.png" width="1024" />
-        <splash height="2048" platform="ios" src="www/res/screen/ios/1536x2048.png" width="1536" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/768x1024.png" width="768" />
-        <splash height="960" platform="ios" src="www/res/screen/ios/640x960.png" width="640" />
-        <splash height="480" platform="ios" src="www/res/screen/ios/320x480.png" width="320" />
-        <icon height="57" src="www/res/icon/ios/icon.png" width="57" />
-        <icon height="114" src="www/res/icon/ios/icon@2x.png" width="114" />
-        <icon height="40" src="www/res/icon/ios/icon-40.png" width="40" />
-        <icon height="80" src="www/res/icon/ios/icon-40@2x.png" width="80" />
-        <icon height="50" src="www/res/icon/ios/icon-50.png" width="50" />
-        <icon height="100" src="www/res/icon/ios/icon-50@2x.png" width="100" />
-        <icon height="60" src="www/res/icon/ios/icon-60.png" width="60" />
-        <icon height="120" src="www/res/icon/ios/icon-60@2x.png" width="120" />
-        <icon height="180" src="www/res/icon/ios/icon-60@3x.png" width="180" />
-        <icon height="72" src="www/res/icon/ios/icon-72.png" width="72" />
-        <icon height="144" src="www/res/icon/ios/icon-72@2x.png" width="144" />
-        <icon height="76" src="www/res/icon/ios/icon-76.png" width="76" />
-        <icon height="152" src="www/res/icon/ios/icon-76@2x.png" width="152" />
-        <icon height="29" src="www/res/icon/ios/icon-small.png" width="29" />
-        <icon height="58" src="www/res/icon/ios/icon-small@2x.png" width="58" />
-        <icon height="87" src="www/res/icon/ios/icon-small@3x.png" width="87" />
-        <splash height="1136" src="www/res/screen/ios/640x1136.png" width="640" />
-        <splash height="1334" src="www/res/screen/ios/750x1334.png" width="750" />
-        <splash height="2208" src="www/res/screen/ios/1242x2208.png" width="1242" />
-        <splash height="1242" src="www/res/screen/ios/2208x1242.png" width="2208" />
-        <splash height="1536" src="www/res/screen/ios/2048x1536.png" width="2048" />
-        <splash height="768" src="www/res/screen/ios/1024x768.png" width="1024" />
-        <splash height="2048" src="www/res/screen/ios/1536x2048.png" width="1536" />
-        <splash height="1024" src="www/res/screen/ios/768x1024.png" width="768" />
-        <splash height="960" src="www/res/screen/ios/640x960.png" width="640" />
-        <splash height="480" src="www/res/screen/ios/320x480.png" width="320" />
+        <icon height="57" platform="ios" src="res/icon/ios/icon.png" width="57" />
+        <icon height="114" platform="ios" src="res/icon/ios/icon@2x.png" width="114" />
+        <icon height="40" platform="ios" src="res/icon/ios/icon-40.png" width="40" />
+        <icon height="80" platform="ios" src="res/icon/ios/icon-40@2x.png" width="80" />
+        <icon height="50" platform="ios" src="res/icon/ios/icon-50.png" width="50" />
+        <icon height="100" platform="ios" src="res/icon/ios/icon-50@2x.png" width="100" />
+        <icon height="60" platform="ios" src="res/icon/ios/icon-60.png" width="60" />
+        <icon height="120" platform="ios" src="res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="180" platform="ios" src="res/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="72" platform="ios" src="res/icon/ios/icon-72.png" width="72" />
+        <icon height="144" platform="ios" src="res/icon/ios/icon-72@2x.png" width="144" />
+        <icon height="76" platform="ios" src="res/icon/ios/icon-76.png" width="76" />
+        <icon height="152" platform="ios" src="res/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="29" platform="ios" src="res/icon/ios/icon-small.png" width="29" />
+        <icon height="58" platform="ios" src="res/icon/ios/icon-small@2x.png" width="58" />
+        <icon height="87" platform="ios" src="res/icon/ios/icon-small@3x.png" width="87" />
+        <splash height="1136" platform="ios" src="res/screen/ios/640x1136.png" width="640" />
+        <splash height="1334" platform="ios" src="res/screen/ios/750x1334.png" width="750" />
+        <splash height="2208" platform="ios" src="res/screen/ios/1242x2208.png" width="1242" />
+        <splash height="1242" platform="ios" src="res/screen/ios/2208x1242.png" width="2208" />
+        <splash height="1536" platform="ios" src="res/screen/ios/2048x1536.png" width="2048" />
+        <splash height="768" platform="ios" src="res/screen/ios/1024x768.png" width="1024" />
+        <splash height="2048" platform="ios" src="res/screen/ios/1536x2048.png" width="1536" />
+        <splash height="1024" platform="ios" src="res/screen/ios/768x1024.png" width="768" />
+        <splash height="960" platform="ios" src="res/screen/ios/640x960.png" width="640" />
+        <splash height="480" platform="ios" src="res/screen/ios/320x480.png" width="320" />
+        <icon height="57" src="res/icon/ios/icon.png" width="57" />
+        <icon height="114" src="res/icon/ios/icon@2x.png" width="114" />
+        <icon height="40" src="res/icon/ios/icon-40.png" width="40" />
+        <icon height="80" src="res/icon/ios/icon-40@2x.png" width="80" />
+        <icon height="50" src="res/icon/ios/icon-50.png" width="50" />
+        <icon height="100" src="res/icon/ios/icon-50@2x.png" width="100" />
+        <icon height="60" src="res/icon/ios/icon-60.png" width="60" />
+        <icon height="120" src="res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="180" src="res/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="72" src="res/icon/ios/icon-72.png" width="72" />
+        <icon height="144" src="res/icon/ios/icon-72@2x.png" width="144" />
+        <icon height="76" src="res/icon/ios/icon-76.png" width="76" />
+        <icon height="152" src="res/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="29" src="res/icon/ios/icon-small.png" width="29" />
+        <icon height="58" src="res/icon/ios/icon-small@2x.png" width="58" />
+        <icon height="87" src="res/icon/ios/icon-small@3x.png" width="87" />
+        <splash height="1136" src="res/screen/ios/640x1136.png" width="640" />
+        <splash height="1334" src="res/screen/ios/750x1334.png" width="750" />
+        <splash height="2208" src="res/screen/ios/1242x2208.png" width="1242" />
+        <splash height="1242" src="res/screen/ios/2208x1242.png" width="2208" />
+        <splash height="1536" src="res/screen/ios/2048x1536.png" width="2048" />
+        <splash height="768" src="res/screen/ios/1024x768.png" width="1024" />
+        <splash height="2048" src="res/screen/ios/1536x2048.png" width="1536" />
+        <splash height="1024" src="res/screen/ios/768x1024.png" width="768" />
+        <splash height="960" src="res/screen/ios/640x960.png" width="640" />
+        <splash height="480" src="res/screen/ios/320x480.png" width="320" />
     </platform>
     <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/200x320.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/320x480.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/480x800.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/720x1280.jpg" />
     <gap:splash src="www/res/screen/android/720x1280.jpg" />
-    <gap:splash gap:platform="blackberry" src="www/res/screen/blackberry/screen-225.png" />
-<!--     <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/360x480.jpg" width="320" />
+<!--     <gap:splash gap:platform="blackberry" src="www/res/screen/blackberry/screen-225.png" />
+ --><!--     <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/360x480.jpg" width="320" />
     <gap:splash gap:platform="ios" height="960" src="www/res/screen/ios/640x960.jpg" width="640" />
     <gap:splash gap:platform="ios" height="1136" src="www/res/screen/ios/640x1136.jpg" width="640" />
     <gap:splash gap:platform="ios" height="1024" src="www/res/screen/ios/768x1024.jpg" width="768" /> -->
-    <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
-    <preference name="AutoHideSplashScreen" value="true" />
+<!--     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
+ -->    <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreenDelay" value="4000" />
     <access origin="*" />
     <plugin name="cordova-plugin-whitelist" version="1" />
