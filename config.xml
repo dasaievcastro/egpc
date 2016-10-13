@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gama.egpc" versionCode="3" version="2.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.gamaca.egpc" versionCode="3" version="2.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>VI EGPC </name>
     <description>VI EGPC - Evento Mercer GAMA de Previdência Complementar</description>
     <author email="dasaiev.castro@mercer.com" href="http://egpc.com.br">Mercer GAMA</author>
@@ -53,32 +53,32 @@
     <icon gap:platform="ios" height="114" src="www/res/icon/ios/114x114.jpg" width="114" />
     <icon gap:platform="ios" height="144" src="www/res/icon/ios/144x144.jpg" width="144" /> -->
     <platform name="ios">
-        <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
-        <icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
-        <icon height="40" platform="ios" src="www/res/icon/ios/icon-40.png" width="40" />
-        <icon height="80" platform="ios" src="www/res/icon/ios/icon-40@2x.png" width="80" />
-        <icon height="50" platform="ios" src="www/res/icon/ios/icon-50.png" width="50" />
-        <icon height="100" platform="ios" src="www/res/icon/ios/icon-50@2x.png" width="100" />
-        <icon height="60" platform="ios" src="www/res/icon/ios/icon-60.png" width="60" />
-        <icon height="120" platform="ios" src="www/res/icon/ios/icon-60@2x.png" width="120" />
-        <icon height="180" platform="ios" src="www/res/icon/ios/icon-60@3x.png" width="180" />
-        <icon height="72" platform="ios" src="www/res/icon/ios/icon-72.png" width="72" />
-        <icon height="144" platform="ios" src="www/res/icon/ios/icon-72@2x.png" width="144" />
-        <icon height="76" platform="ios" src="www/res/icon/ios/icon-76.png" width="76" />
-        <icon height="152" platform="ios" src="www/res/icon/ios/icon-76@2x.png" width="152" />
-        <icon height="29" platform="ios" src="www/res/icon/ios/icon-small.png" width="29" />
-        <icon height="58" platform="ios" src="www/res/icon/ios/icon-small@2x.png" width="58" />
-        <icon height="87" platform="ios" src="www/res/icon/ios/icon-small@3x.png" width="87" />
-        <splash height="1136" platform="ios" src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" />
-        <splash height="1334" platform="ios" src="www/res/screen/ios/Default-667h.png" width="750" />
-        <splash height="2208" platform="ios" src="www/res/screen/ios/Default-736h.png" width="1242" />
-        <splash height="1242" platform="ios" src="www/res/screen/ios/Default-Landscape-736h.png" width="2208" />
-        <splash height="1536" platform="ios" src="www/res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
-        <splash height="768" platform="ios" src="www/res/screen/ios/Default-Landscape~ipad.png" width="1024" />
-        <splash height="2048" platform="ios" src="www/res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" />
-        <splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
-        <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
+        <icon height="57" platform="ios" src="www/res/icon/ios/57x57.png" width="57" />
+        <icon height="114" platform="ios" src="www/res/icon/ios/114x114.png" width="114" />
+        <icon height="40" platform="ios" src="www/res/icon/ios/40x40.png" width="40" />
+        <icon height="80" platform="ios" src="www/res/icon/ios/80x80.png" width="80" />
+        <icon height="50" platform="ios" src="www/res/icon/ios/50x50.png" width="50" />
+        <icon height="100" platform="ios" src="www/res/icon/ios/100x100.png" width="100" />
+        <icon height="60" platform="ios" src="www/res/icon/ios/60x60.png" width="60" />
+        <icon height="120" platform="ios" src="www/res/icon/ios/120x120.png" width="120" />
+        <icon height="180" platform="ios" src="www/res/icon/ios/180x180.png" width="180" />
+        <icon height="72" platform="ios" src="www/res/icon/ios/72x72.png" width="72" />
+        <icon height="144" platform="ios" src="www/res/icon/ios/144x144.png" width="144" />
+        <icon height="76" platform="ios" src="www/res/icon/ios/76x76.png" width="76" />
+        <icon height="152" platform="ios" src="www/res/icon/ios/152x152.png" width="152" />
+        <icon height="29" platform="ios" src="www/res/icon/ios/29x29.png" width="29" />
+        <icon height="58" platform="ios" src="www/res/icon/ios/58x58.png" width="58" />
+        <icon height="87" platform="ios" src="www/res/icon/ios/87x87.png" width="87" />
+        <splash height="1136" platform="ios" src="www/res/screen/ios/640x1136.png" width="640" />
+        <splash height="1334" platform="ios" src="www/res/screen/ios/750x1334.png" width="750" />
+        <splash height="2208" platform="ios" src="www/res/screen/ios/1242x2208.png" width="1242" />
+        <splash height="1242" platform="ios" src="www/res/screen/ios/2208x1242.png" width="2208" />
+        <splash height="1536" platform="ios" src="www/res/screen/ios/2048x1536.png" width="2048" />
+        <splash height="768" platform="ios" src="www/res/screen/ios/1024x768.png" width="1024" />
+        <splash height="2048" platform="ios" src="www/res/screen/ios/1536x2048.png" width="1536" />
+        <splash height="1024" platform="ios" src="www/res/screen/ios/768x1024.png" width="768" />
+        <splash height="960" platform="ios" src="www/res/screen/ios/640x960.png" width="640" />
+        <splash height="480" platform="ios" src="www/res/screen/ios/320x480.png" width="320" />
     </platform>
     <icon gap:platform="webos" src="www/res/icon/webos/icon-64.png" />
     <icon gap:platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
