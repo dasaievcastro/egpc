@@ -228,6 +228,7 @@ function criarbloco(row, imagem){
 function clickpalestrante(){
   url = document.URL;
   if(url.indexOf('#')>=0){
+    $('#voltarCronograma').show();
     id = url.split("#")[1];
     $('#'+id+' .show-wide-text').delay(2000).trigger('click');
       $('#page-content-scroll').animate({

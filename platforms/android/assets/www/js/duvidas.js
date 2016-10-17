@@ -71,6 +71,10 @@ var app = {
         // console.log('Received Event: ' + id);
             $("#status").fadeOut(); // will first fade out the loading animation
             $("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
+            url = document.URL;
+            if(url.indexOf('#')>=0){
+                $('#voltarCronograma').show();
+            }
              (function($){
                 $(document.body).on('click','.internetValidate',function(){
                     $('#notificacao').delay(450).fadeIn("medium").delay(3500).fadeOut("slow")
