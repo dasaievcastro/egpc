@@ -116,28 +116,30 @@ function readFile() {
 }
 
 
-
+var painel = 1;
 function criarbloco(row){
 
   var retorno = ''
   if(row.nomep == ''){
     retorno = '<div class="calendar-hours"><a class="calendar-hour calendar-hour-taken"><strong class="cal-from">'+row.horarioi+'</strong><strong class="cal-to">'+row.horariof+'</strong><h4 class="espacoagenda">'+row.palestra+'</h4></a></div>'  
     if(row.child!=undefined){
-      retorno = '<div class="calendar-hours child"><a class="calendar-hour calendar-hour-taken"><strong class="cal-from">'+row.horarioi+'</strong><strong class="cal-to">'+row.horariof+'</strong><h4 class="espacoagenda">'+row.palestra+'</h4></a></div>'   
+      retorno = '<div class="calendar-hours child'+painel+'"><a class="calendar-hour calendar-hour-taken"><strong class="cal-from">'+row.horarioi+'</strong><strong class="cal-to">'+row.horariof+'</strong><h4 class="espacoagenda">'+row.palestra+'</h4></a></div>'   
       if(row.palestra.indexOf('Perguntas')>=0){
-        retorno = '<div class="calendar-hours child"><a href="duvidas.html#cronograma" class="calendar-hour calendar-hour-taken"><strong class="cal-from">'+row.horarioi+'</strong><strong class="cal-to">'+row.horariof+'</strong><h4>'+row.palestra+'</h4><em><i class="fa fa-hand-pointer-o"></i><span class="facasuaperguntapainel">Clique aqui e faça a sua pergunta</span></em></a></div>'   
+        retorno = '<div class="calendar-hours child'+painel+'"><a href="duvidas.html#cronograma" class="calendar-hour calendar-hour-taken"><strong class="cal-from">'+row.horarioi+'</strong><strong class="cal-to">'+row.horariof+'</strong><h4>'+row.palestra+'</h4><em><i class="fa fa-hand-pointer-o"></i><span class="facasuaperguntapainel">Clique aqui e faça a sua pergunta</span></em></a></div>'   
 
       }
     }
   }else{
     retorno = '<div class="calendar-hours"><a  href="palestrantes.html#'+row.link+'" class="calendar-hour calendar-hour-taken"><strong class="cal-from">'+row.horarioi+'</strong><strong class="cal-to">'+row.horariof+'</strong><h4>'+row.palestra+'</h4><em><i class="fa fa-user"></i>'+row.nomep+'</em></a></div>'   
     if(row.child!=undefined){
-      retorno = '<div class="calendar-hours child"><a  href="palestrantes.html#'+row.link+'" class="calendar-hour calendar-hour-taken"><strong class="cal-from">'+row.horarioi+'</strong><strong class="cal-to">'+row.horariof+'</strong><h4>'+row.palestra+'</h4><em><i class="fa fa-user"></i>'+row.nomep+'</em></a></div>'   
+      retorno = '<div class="calendar-hours child'+painel+'"><a  href="palestrantes.html#'+row.link+'" class="calendar-hour calendar-hour-taken"><strong class="cal-from">'+row.horarioi+'</strong><strong class="cal-to">'+row.horariof+'</strong><h4>'+row.palestra+'</h4><em><i class="fa fa-user"></i>'+row.nomep+'</em></a></div>'   
 
     }
-    console.log(String(row.palestra).indexOf('Painel'))
+    //console.log(String(row.palestra).indexOf('Painel'))
     if(String(row.palestra).indexOf('Painel')>=0){
-      retorno = '<div class="calendar-hours painel"><a  href="palestrantes.html#'+row.link+'" class="calendar-hour calendar-hour-taken"><strong class="cal-from">'+row.horarioi+'</strong><strong class="cal-to">'+row.horariof+'</strong><h4>'+row.palestra+'</h4><em><i class="fa fa-user-plus"></i>'+row.nomep+'</em></a></div>'   
+
+      retorno = '<div class="calendar-hours painel painel'+painel+'"><a  href="palestrantes.html#'+row.link+'" class="calendar-hour calendar-hour-taken"><strong class="cal-from">'+row.horarioi+'</strong><strong class="cal-to">'+row.horariof+'</strong><h4>'+row.palestra+'</h4><em><i class="fa fa-user-plus"></i>'+row.nomep+'</em></a></div>'   
+      painel++;
     }  
   }
   return retorno

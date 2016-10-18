@@ -51,7 +51,7 @@ var app = {
         // listeningElement.setAttribute('style', 'display:none;');
         // receivedElement.setAttribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
+        // console.log('Received Event: ' + id);
         $("#status").fadeOut(); // will first fade out the loading animation
         $("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
     }
