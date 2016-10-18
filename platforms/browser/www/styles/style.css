@@ -752,7 +752,7 @@
     background-color: #0fb694;
 }
 .painel h4, .painel em, .painel i{
-    color: #fff;
+    color: #fff!important;
 }
 .facasuaperguntapainel{
     text-align: right;
