@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gama.egpc" versionCode="11" version="2.0.53" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.gamaca.egpc" version="2.0.54" versionCode="12" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>VI EGPC </name>
     <description>VI EGPC - Evento Mercer GAMA de Previdência Complementar</description>
     <author email="dasaiev.castro@mercer.com" href="http://egpc.com.br">Mercer GAMA</author>
@@ -12,8 +12,8 @@
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="false" />
     <preference name="ios-statusbarstyle" value="black-opaque" />
-    <preference name="StatusBarOverlaysWebView" value="false"/>
-    <preference name="StatusBarBackgroundColor" value="#000000"/>
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
@@ -40,7 +40,7 @@
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
-    <preference name="SplashScreen" value="screen"/>
+    <preference name="SplashScreen" value="screen" />
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/36x36.jpg" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/48x48.jpg" />
@@ -80,10 +80,6 @@
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/720x1280.jpg" />
     <gap:splash src="www/res/screen/android/720x1280.jpg" />
     <gap:splash gap:platform="blackberry" src="www/res/screen/blackberry/screen-225.png" />
-<!--     <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/360x480.jpg" width="320" />
-    <gap:splash gap:platform="ios" height="960" src="www/res/screen/ios/640x960.jpg" width="640" />
-    <gap:splash gap:platform="ios" height="1136" src="www/res/screen/ios/640x1136.jpg" width="640" />
-    <gap:splash gap:platform="ios" height="1024" src="www/res/screen/ios/768x1024.jpg" width="768" /> -->
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreenDelay" value="4000" />
@@ -105,4 +101,5 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="~5.1.1" />
+    <engine name="ios" spec="~4.1.1" />
 </widget>

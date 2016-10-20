@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.gama.egpc;
+package com.gamaca.egpc;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
