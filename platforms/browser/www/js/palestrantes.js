@@ -86,7 +86,7 @@ function readFile() {
                //for(r in a){
                 function recursive(r){
                 var row = a[r];
-
+                
                 readImage(row.foto,function(resposta){
 
                   html += criarbloco(row, resposta)

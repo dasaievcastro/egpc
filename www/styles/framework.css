@@ -3199,21 +3199,21 @@ ul.tabs li.active-tab{
 
 .portfolio-wide .wide-title h3{
     font-weight:400;
-    text-align:center;
+    text-align:left;
     position:relative;
     z-index:3;
-    color:#FFFFFF;
-    padding-top:35px;
+    color:#FFFFFF;    
+    padding: 35px 20px 0px 20px;
     margin-bottom:0px
 }
 
 .portfolio-wide .wide-title em{
-    text-align:center;
+    text-align:left;
     position:relative;
     display:block;
     z-index:3;
     color:rgba(255,255,255,0.6);
-    padding-bottom:30px;
+    padding: 0px 20px 30px 20px;
     font-style:normal;
     font-size:12px;
 }

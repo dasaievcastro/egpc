@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gama.egpc" version="2.0.55" versionCode="13" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.gama.egpc" version="2.0.65" versionCode="14" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
@@ -78,8 +78,8 @@
     <feature name="Vibration">
         <param name="ios-package" value="CDVVibration" />
     </feature>
-    <name>VI EGPC </name>
-    <description>VI EGPC - Evento Mercer GAMA de Previdência Complementar</description>
+    <name>VII EGPC </name>
+    <description>VII EGPC - Evento Mercer GAMA de Previdência Complementar</description>
     <author email="dasaiev.castro@mercer.com" href="http://egpc.com.br">Mercer GAMA</author>
     <content src="index.html" />
     <icon src="icon.png" />

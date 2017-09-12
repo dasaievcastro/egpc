@@ -729,27 +729,27 @@
 }
 .child2{
     padding-left: 20px;
-    background: linear-gradient(90deg, #008075 10px, #fff 10px);
+    background: linear-gradient(90deg, #28CDBE 10px, #fff 10px);
 }
 .child3{
     padding-left: 20px;
-    background: linear-gradient(90deg, #05aa9c 10px, #fff 10px);
+    background: linear-gradient(90deg, #00669e 10px, #fff 10px);
 }
 .child4{
     padding-left: 20px;
-    background: linear-gradient(90deg, #0fb694 10px, #fff 10px);
+    background: linear-gradient(90deg, #00a2c9 10px, #fff 10px);
 }
 .painel{
     background-color: #0cb0d3;
 }
 .painel1{
-    background-color: #008075;
+    background-color: #28CDBE;
 }
 .painel2{
-    background-color: #05aa9c;
+    background-color: #00669e;
 }
 .painel3{
-    background-color: #0fb694;
+    background-color: #00a2c9;
 }
 .painel h4, .painel em, .painel i{
     color: #fff!important;
@@ -801,9 +801,9 @@ form h5{
 
 .olhofuturo{
     margin: 0 auto;
-    width: 230px;
-    height: 230px;
-    margin-bottom: 45px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 60px;
 }
 .textcronograma{
     text-align: center;
