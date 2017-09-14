@@ -11,10 +11,6 @@
     <author email="dasaiev.castro@mercer.com" href="http://egpc.com.br">Mercer GAMA</author>
     <content src="index.html" />
     <icon src="icon.png" />
-    <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/36x36.jpg" />
-    <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/48x48.jpg" />
-    <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/72x72.jpg" />
-    <icon gap:platform="android" gap:qualifier="xhdpi" src="www/res/icon/android/96x96.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/200x320.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/320x480.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/480x800.jpg" />

@@ -801,7 +801,7 @@ form h5{
 
 .olhofuturo{
     margin: 0 auto;
-    width: 300px;
+    width: 65%;
     height: auto;
     margin-bottom: 60px;
 }
@@ -812,5 +812,15 @@ form h5{
     margin-top:78px;
 }
 .patrocinadores img{
-    margin: 30px auto;
+    width: 45%;
+    float: left;
+    margin: 20px 0;
+}
+.imgfull{
+    width: 75%!important;
+    margin: 20px auto!important;
+    float: none!important;
+}
+.colorSlider, .colorSlider a{
+    color: #00659D!important;
 }
