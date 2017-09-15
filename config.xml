@@ -75,10 +75,12 @@
         <splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
         <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
     </platform>
-    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/200x320.jpg" />
-    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/320x480.jpg" />
-    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/480x800.jpg" />
-    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/720x1280.jpg" />
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/drawable-port-ldpi-screen.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/drawable-port-mdpi-screen.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/drawable-port-hdpi-screen.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/drawable-port-xhdpi-screen.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
     <gap:splash src="www/res/screen/android/720x1280.jpg" />
     <gap:splash gap:platform="blackberry" src="www/res/screen/blackberry/screen-225.png" />
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
