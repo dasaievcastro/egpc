@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.gama.egpc" version="2.0.68" versionCode="16" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>VII EGPC </name>
-    <description>VII EGPC - Evento Mercer GAMA de Previdência Complementar</description>
+    <name>VII EMGPC </name>
+    <description>VII EMGPC - Evento Mercer GAMA de Previdência Complementar</description>
     <author email="dasaiev.castro@mercer.com" href="http://egpc.com.br">Mercer GAMA</author>
     <content src="index.html" />
     <preference name="permissions" value="none" />

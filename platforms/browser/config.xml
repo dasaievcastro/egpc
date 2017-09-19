@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gama.egpc" version="2.0.66" versionCode="15" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.gama.egpc" version="2.0.68" versionCode="16" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="Camera">
         <param name="browser-package" value="Camera" />
     </feature>
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>VII EGPC </name>
-    <description>VII EGPC - Evento Mercer GAMA de Previdência Complementar</description>
+    <name>VII EMGPC </name>
+    <description>VII EMGPC - Evento Mercer GAMA de Previdência Complementar</description>
     <author email="dasaiev.castro@mercer.com" href="http://egpc.com.br">Mercer GAMA</author>
     <content src="index.html" />
     <icon src="icon.png" />
